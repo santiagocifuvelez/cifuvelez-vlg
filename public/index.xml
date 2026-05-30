@@ -11,6 +11,16 @@
     <copyright>© Santiago Cifuentes Vélez</copyright>
     <lastBuildDate>Sat, 30 May 2026 00:00:00 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bogotá</title>
+      <link>http://localhost:1313/colombia/bogota/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 -0500</pubDate><author>user@example.com (Santiago Cifuentes Vélez)</author>
+      <guid>http://localhost:1313/colombia/bogota/</guid>
+        <media:content url="http://localhost:1313/colombia/bogota/img1_hu_cabb34b656e94e83.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/colombia/bogota/img1_hu_cabb34b656e94e83.jpg&quot; /&gt;
+          &lt;p&gt;La capital de Colombia&lt;/p&gt;
+        </description></item>
+    <item>
       <title>Puno</title>
       <link>http://localhost:1313/peru/puno/</link>
       <pubDate>Sat, 30 May 2026 00:00:00 -0500</pubDate><author>user@example.com (Santiago Cifuentes Vélez)</author>
