@@ -1,0 +1,49 @@
+title = "My Gallery"
+languageCode = "es"
+defaultContentLanguage = "es"
+timeZone = "America/Bogota" # Cámbiala por tu zona horaria si prefieres
+timeout = "120s"
+theme = "github"
+
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+copyright = "© Santiago Cifuentes Vélez"
+
+[params]
+  defaultTheme = "dark"
+  description = "Mi vlog de fotografía personal"
+  title = "My Gallery"
+  
+  [params.author]
+    email = "user@example.com"
+    name = "Santiago Cifuentes Vélez"
+    
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/"
+    instagram = "https://www.instagram.com/"
+    github = "https://github.com/santiagocifuvelez"
+    youtube = "https://www.youtube.com/"
+    email = "mailto:user@example.com"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/santiagocifuvelez"
+    weight = 3
+
+[services]
+  [services.rss]
+    limit = 100
